@@ -35,6 +35,8 @@ autocmd BufWritePre *.py :%s/\s\+$//e " remove trailing whitespace
 let mapleader = ","
 " Leader key + f Toggles NERDTree
 map <leader>f :NERDTreeToggle<CR>
+" Leader key + l switches between last two files
+map <leader>l <C-^>
 
 " Close NERDTree splits when I close all other splits
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
