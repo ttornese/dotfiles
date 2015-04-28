@@ -1,5 +1,15 @@
-" Allows me to run certain plugins
-execute pathogen#infect()
+call plug#begin('~/.vim/plugged')
+
+Plug 'https://github.com/vim-ruby/vim-ruby.git'
+
+Plug 'https://github.com/scrooloose/nerdtree.git'
+
+Plug 'https://github.com/altercation/vim-colors-solarized.git'
+
+Plug 'https://github.com/ervandew/supertab.git'
+
+call plug#end()
+
 set nocompatible
 
 " Colors
