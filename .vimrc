@@ -8,6 +8,8 @@ Plug 'https://github.com/altercation/vim-colors-solarized.git'
 
 Plug 'https://github.com/ervandew/supertab.git'
 
+Plug 'git@github.com:mileszs/ack.vim.git'
+
 call plug#end()
 
 set nocompatible
@@ -35,7 +37,6 @@ autocmd BufWritePre *.py :%s/\s\+$//e " remove trailing whitespace
 let mapleader = ","
 " Leader key + f Toggles NERDTree
 map <leader>f :NERDTreeToggle<CR>
-" Leader key + l switches between last two files
 map <leader>l <C-^>
 
 " Close NERDTree splits when I close all other splits
