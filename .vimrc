@@ -10,6 +10,8 @@ Plug 'https://github.com/ervandew/supertab.git'
 
 Plug 'git@github.com:mileszs/ack.vim.git'
 
+Plug 'git@github.com:tpope/vim-fugitive.git'
+
 call plug#end()
 
 set nocompatible
