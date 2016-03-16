@@ -1,8 +1,5 @@
-if [ -f ~/.zipcar_aliases ]; then
-  . .zipcar_aliases
-fi
-
 # Editing
+alias vi='vim'
 alias editpr='vi ~/.bash_profile'
 alias editrc='vi ~/.bashrc'
 alias edital='vi ~/.bash_aliases'
@@ -22,6 +19,9 @@ alias gr='git reset'
 alias ga='git add'
 alias gg='git grep'
 alias gc='git commit -m'
+
+# Gulp
+alias gtf='gulp mocha-file --file'
 
 # TMUX
 alias tls='tmux ls'
